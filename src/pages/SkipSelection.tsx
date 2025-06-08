@@ -441,7 +441,7 @@ const SkipSelection: React.FC = () => {
               <div className="mb-6">
                 <div className="w-full h-48 bg-gradient-to-br from-blue-500/20 to-slate-700/20 rounded-xl flex items-center justify-center mb-4 border border-blue-500/20">
                   <img
-                    src="/src/assets/skip.jpg"
+                    src="/assets/skip.jpg"
                     alt="Professional Skip"
                     className="w-full h-full object-cover rounded-xl"
                   />

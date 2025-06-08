@@ -47,12 +47,14 @@ src/
 ## 🎨 Design Philosophy & UI/UX Decisions
 
 ### Visual Design
+
 - **Modern Gradient Background**: Subtle blue-to-teal gradient creates depth without distraction
 - **Card-Based Layout**: Each skip is presented in an elegant card with hover animations
 - **Color System**: Professional blue primary (#2563EB), teal secondary (#0D9488), and orange accent (#EA580C)
 - **Typography**: Clear hierarchy using system fonts with proper spacing
 
 ### User Experience
+
 - **Progressive Loading**: Skeleton states and loading indicators provide feedback
 - **Responsive Design**: Optimized layouts from mobile (1 column) to desktop (4 columns)
 - **Visual Feedback**: Selected skips are highlighted with border and ring effects
@@ -60,6 +62,7 @@ src/
 - **Error Handling**: Graceful fallbacks with mock data when API fails
 
 ### Accessibility
+
 - **Semantic HTML**: Proper heading structure and ARIA labels
 - **Keyboard Navigation**: Full keyboard accessibility for all interactive elements
 - **Color Contrast**: WCAG compliant color combinations for readability
@@ -68,6 +71,7 @@ src/
 ## 🔧 Features
 
 ### Core Functionality
+
 - **Dynamic Data Loading**: Fetches skip data from WeWantWaste API
 - **Skip Selection**: Click to select with visual feedback
 - **Responsive Grid**: Adapts to different screen sizes
@@ -75,6 +79,7 @@ src/
 - **Selection Logging**: Console output for debugging/integration
 
 ### Technical Features
+
 - **TypeScript**: Full type safety throughout the application
 - **Component Architecture**: Modular, reusable components
 - **State Management**: React hooks for local state
@@ -84,11 +89,13 @@ src/
 ## 🌐 API Integration
 
 The application integrates with the WeWantWaste API:
+
 ```
 https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft
 ```
 
 ### Data Transformation
+
 - Maps API response to consistent Skip interface
 - Handles missing fields with sensible defaults
 - Provides fallback mock data for demonstration
@@ -111,10 +118,13 @@ https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft
 ## 🤝 Development
 
 This project follows modern React development practices:
+
 - Functional components with hooks
 - TypeScript for type safety
 - ESLint for code quality
 - Responsive design principles
 - Accessible UI patterns
+
+Additionally, AI tools such as Bolt and Claude were used to assist in ideation, code generation, and problem-solving during development.
 
 Built as a demonstration of modern front-end development skills for recruitment purposes.

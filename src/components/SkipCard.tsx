@@ -31,7 +31,7 @@ const SkipCard: React.FC<SkipCardProps> = ({ skip, onSelect, isSelected = false 
       {/* Header with gradient and price */}
       <div className="relative h-48 bg-gradient-to-br from-blue-600/30 via-slate-700/30 to-blue-800/30 rounded-t-2xl overflow-hidden">
         <img
-          src="/src/OIG2.jpg"
+          src="/src/assets/skip.jpg"
           alt="Professional Skip"
           className="w-full h-full object-cover"
         />
